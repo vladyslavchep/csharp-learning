@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/day-00/">
+    <Project Path="day-00/Hello/Hello.csproj" />
+  </Folder>
+  <Folder Name="/day-01/">
+    <Project Path="day-01/Task1/Task1.csproj" />
+    <Project Path="day-01/Task2/Task2.csproj" />
+    <Project Path="day-01/Task3/Task3.csproj" />
+    <Project Path="day-01/Task4/Task4.csproj" />
+    <Project Path="day-01/Task5/Task5.csproj" />
+  </Folder>
+</Solution>
