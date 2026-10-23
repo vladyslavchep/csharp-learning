@@ -1,1 +1,10 @@
-﻿Console.WriteLine("Hello, World!");
+﻿Console.Write("Enter first number: ");
+int number1 = int.Parse(Console.ReadLine() ?? "");
+Console.Write("Enter second number: ");
+int number2 = int.Parse(Console.ReadLine() ?? "");
+Console.WriteLine($"{number1} + {number2} = {number1 + number2}");
+Console.WriteLine($"{number1} - {number2} = {number1 - number2}");
+Console.WriteLine($"{number1} * {number2} = {number1 * number2}");
+Console.WriteLine($"{number1} / {number2} = {number1 / number2}");
+Console.WriteLine($"{number1} % {number2} = {number1 % number2}");
+Console.WriteLine($"{number1} / {number2} exact = {(double)number1 / number2}");
